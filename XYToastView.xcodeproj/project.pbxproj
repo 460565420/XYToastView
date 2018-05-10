@@ -13,6 +13,7 @@
 		F2EF6D6120A43BD600E40675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2EF6D6020A43BD600E40675 /* Assets.xcassets */; };
 		F2EF6D6420A43BD600E40675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2EF6D6220A43BD600E40675 /* LaunchScreen.storyboard */; };
 		F2EF6D6720A43BD600E40675 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EF6D6620A43BD600E40675 /* main.m */; };
+		F2EF6D7020A43BEA00E40675 /* XYToast.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EF6D6F20A43BEA00E40675 /* XYToast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F2EF6D6320A43BD600E40675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2EF6D6520A43BD600E40675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2EF6D6620A43BD600E40675 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2EF6D6E20A43BEA00E40675 /* XYToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYToast.h; sourceTree = "<group>"; };
+		F2EF6D6F20A43BEA00E40675 /* XYToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYToast.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		F2EF6D5620A43BD500E40675 /* XYToastView */ = {
 			isa = PBXGroup;
 			children = (
+				F2EF6D6D20A43BEA00E40675 /* XYToast */,
 				F2EF6D5720A43BD500E40675 /* AppDelegate.h */,
 				F2EF6D5820A43BD500E40675 /* AppDelegate.m */,
 				F2EF6D5A20A43BD600E40675 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				F2EF6D6620A43BD600E40675 /* main.m */,
 			);
 			path = XYToastView;
+			sourceTree = "<group>";
+		};
+		F2EF6D6D20A43BEA00E40675 /* XYToast */ = {
+			isa = PBXGroup;
+			children = (
+				F2EF6D6E20A43BEA00E40675 /* XYToast.h */,
+				F2EF6D6F20A43BEA00E40675 /* XYToast.m */,
+			);
+			path = XYToast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2EF6D7020A43BEA00E40675 /* XYToast.m in Sources */,
 				F2EF6D5C20A43BD600E40675 /* ViewController.m in Sources */,
 				F2EF6D6720A43BD600E40675 /* main.m in Sources */,
 				F2EF6D5920A43BD500E40675 /* AppDelegate.m in Sources */,
